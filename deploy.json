@@ -1,0 +1,137 @@
+{
+    "id": "/subscriptions/3bb408ba-f3fa-4d10-bcc5-8f94699b5f33/resourceGroups/GitHub-Copilot-Challenges/providers/Microsoft.Resources/deployments/Microsoft.Template-20240508112905",
+    "name": "Microsoft.Template-20240508112905",
+    "type": "Microsoft.Resources/deployments",
+    "properties": {
+        "templateLink": {
+            "uri": "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/quickstarts/microsoft.cdn/cdn-with-web-app/azuredeploy.json",
+            "contentVersion": "1.0.0.0"
+        },
+        "templateHash": "6815885842748664804",
+        "parameters": {
+            "profileName": {
+                "type": "String",
+                "value": "cdn-u7jv3c2m63zee"
+            },
+            "endpointName": {
+                "type": "String",
+                "value": "endpoint-u7jv3c2m63zee"
+            },
+            "serverFarmName": {
+                "type": "String",
+                "value": "asp-u7jv3c2m63zee"
+            },
+            "webAppName": {
+                "type": "String",
+                "value": "web-u7jv3c2m63zee"
+            },
+            "location": {
+                "type": "String",
+                "value": "eastus"
+            }
+        },
+        "mode": "Incremental",
+        "debugSetting": {
+            "detailLevel": "None"
+        },
+        "provisioningState": "Succeeded",
+        "timestamp": "2024-05-08T15:30:11.247635Z",
+        "duration": "PT1M3.0370903S",
+        "correlationId": "2179ed31-6eed-45da-8da4-8ae94ed1ef7e",
+        "providers": [
+            {
+                "namespace": "Microsoft.Web",
+                "resourceTypes": [
+                    {
+                        "resourceType": "serverfarms",
+                        "locations": [
+                            "eastus"
+                        ]
+                    },
+                    {
+                        "resourceType": "sites",
+                        "locations": [
+                            "eastus"
+                        ]
+                    }
+                ]
+            },
+            {
+                "namespace": "Microsoft.Cdn",
+                "resourceTypes": [
+                    {
+                        "resourceType": "profiles",
+                        "locations": [
+                            "eastus"
+                        ]
+                    },
+                    {
+                        "resourceType": "profiles/endpoints",
+                        "locations": [
+                            "eastus"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "dependencies": [
+            {
+                "dependsOn": [
+                    {
+                        "id": "/subscriptions/3bb408ba-f3fa-4d10-bcc5-8f94699b5f33/resourceGroups/GitHub-Copilot-Challenges/providers/Microsoft.Web/serverfarms/asp-u7jv3c2m63zee",
+                        "resourceType": "Microsoft.Web/serverfarms",
+                        "resourceName": "asp-u7jv3c2m63zee"
+                    }
+                ],
+                "id": "/subscriptions/3bb408ba-f3fa-4d10-bcc5-8f94699b5f33/resourceGroups/GitHub-Copilot-Challenges/providers/Microsoft.Web/sites/web-u7jv3c2m63zee",
+                "resourceType": "Microsoft.Web/sites",
+                "resourceName": "web-u7jv3c2m63zee"
+            },
+            {
+                "dependsOn": [
+                    {
+                        "id": "/subscriptions/3bb408ba-f3fa-4d10-bcc5-8f94699b5f33/resourceGroups/GitHub-Copilot-Challenges/providers/Microsoft.Cdn/profiles/cdn-u7jv3c2m63zee",
+                        "resourceType": "Microsoft.Cdn/profiles",
+                        "resourceName": "cdn-u7jv3c2m63zee"
+                    },
+                    {
+                        "id": "/subscriptions/3bb408ba-f3fa-4d10-bcc5-8f94699b5f33/resourceGroups/GitHub-Copilot-Challenges/providers/Microsoft.Web/sites/web-u7jv3c2m63zee",
+                        "resourceType": "Microsoft.Web/sites",
+                        "resourceName": "web-u7jv3c2m63zee"
+                    }
+                ],
+                "id": "/subscriptions/3bb408ba-f3fa-4d10-bcc5-8f94699b5f33/resourceGroups/GitHub-Copilot-Challenges/providers/Microsoft.Cdn/profiles/cdn-u7jv3c2m63zee/endpoints/endpoint-u7jv3c2m63zee",
+                "resourceType": "Microsoft.Cdn/profiles/endpoints",
+                "resourceName": "cdn-u7jv3c2m63zee/endpoint-u7jv3c2m63zee"
+            }
+        ],
+        "outputs": {
+            "hostName": {
+                "type": "String",
+                "value": "endpoint-u7jv3c2m63zee.azureedge.net"
+            },
+            "originHostHeader": {
+                "type": "String",
+                "value": "web-u7jv3c2m63zee.azurewebsites.net"
+            }
+        },
+        "outputResources": [
+            {
+                "id": "/subscriptions/3bb408ba-f3fa-4d10-bcc5-8f94699b5f33/resourceGroups/GitHub-Copilot-Challenges/providers/Microsoft.Cdn/profiles/cdn-u7jv3c2m63zee"
+            },
+            {
+                "id": "/subscriptions/3bb408ba-f3fa-4d10-bcc5-8f94699b5f33/resourceGroups/GitHub-Copilot-Challenges/providers/Microsoft.Cdn/profiles/cdn-u7jv3c2m63zee/endpoints/endpoint-u7jv3c2m63zee"
+            },
+            {
+                "id": "/subscriptions/3bb408ba-f3fa-4d10-bcc5-8f94699b5f33/resourceGroups/GitHub-Copilot-Challenges/providers/Microsoft.Web/serverfarms/asp-u7jv3c2m63zee"
+            },
+            {
+                "id": "/subscriptions/3bb408ba-f3fa-4d10-bcc5-8f94699b5f33/resourceGroups/GitHub-Copilot-Challenges/providers/Microsoft.Web/sites/web-u7jv3c2m63zee"
+            }
+        ],
+        "validationLevel": "Template"
+    },
+    "tags": {
+        "marketplaceItemId": "Microsoft.Template"
+    }
+}

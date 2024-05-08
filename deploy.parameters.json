@@ -1,0 +1,82 @@
+[
+    {
+        "id": "/subscriptions/3bb408ba-f3fa-4d10-bcc5-8f94699b5f33/resourceGroups/GitHub-Copilot-Challenges/providers/Microsoft.Resources/deployments/Microsoft.Template-20240508112905/operations/99E9AE893D44F367",
+        "operationId": "99E9AE893D44F367",
+        "properties": {
+            "provisioningOperation": "Create",
+            "provisioningState": "Succeeded",
+            "timestamp": "2024-05-08T15:30:10.982434Z",
+            "duration": "PT30.0151445S",
+            "trackingId": "65ed176e-5e79-4285-8a9f-83e1c37bc1c1",
+            "statusCode": "OK",
+            "targetResource": {
+                "id": "/subscriptions/3bb408ba-f3fa-4d10-bcc5-8f94699b5f33/resourceGroups/GitHub-Copilot-Challenges/providers/Microsoft.Cdn/profiles/cdn-u7jv3c2m63zee/endpoints/endpoint-u7jv3c2m63zee",
+                "resourceType": "Microsoft.Cdn/profiles/endpoints",
+                "resourceName": "cdn-u7jv3c2m63zee/endpoint-u7jv3c2m63zee"
+            }
+        }
+    },
+    {
+        "id": "/subscriptions/3bb408ba-f3fa-4d10-bcc5-8f94699b5f33/resourceGroups/GitHub-Copilot-Challenges/providers/Microsoft.Resources/deployments/Microsoft.Template-20240508112905/operations/708BFDDCD56FE05E",
+        "operationId": "708BFDDCD56FE05E",
+        "properties": {
+            "provisioningOperation": "Create",
+            "provisioningState": "Succeeded",
+            "timestamp": "2024-05-08T15:29:40.9178918Z",
+            "duration": "PT32.074486S",
+            "trackingId": "65584425-6665-4c71-9e7c-d7a64effd116",
+            "statusCode": "OK",
+            "targetResource": {
+                "id": "/subscriptions/3bb408ba-f3fa-4d10-bcc5-8f94699b5f33/resourceGroups/GitHub-Copilot-Challenges/providers/Microsoft.Web/sites/web-u7jv3c2m63zee",
+                "resourceType": "Microsoft.Web/sites",
+                "resourceName": "web-u7jv3c2m63zee"
+            }
+        }
+    },
+    {
+        "id": "/subscriptions/3bb408ba-f3fa-4d10-bcc5-8f94699b5f33/resourceGroups/GitHub-Copilot-Challenges/providers/Microsoft.Resources/deployments/Microsoft.Template-20240508112905/operations/99726F38B3DEFC58",
+        "operationId": "99726F38B3DEFC58",
+        "properties": {
+            "provisioningOperation": "Create",
+            "provisioningState": "Succeeded",
+            "timestamp": "2024-05-08T15:29:18.8483962Z",
+            "duration": "PT10.0049904S",
+            "trackingId": "2d7f31ce-c69c-4ed6-b9cf-f5f3495b8fb3",
+            "statusCode": "OK",
+            "targetResource": {
+                "id": "/subscriptions/3bb408ba-f3fa-4d10-bcc5-8f94699b5f33/resourceGroups/GitHub-Copilot-Challenges/providers/Microsoft.Web/serverfarms/asp-u7jv3c2m63zee",
+                "resourceType": "Microsoft.Web/serverfarms",
+                "resourceName": "asp-u7jv3c2m63zee"
+            }
+        }
+    },
+    {
+        "id": "/subscriptions/3bb408ba-f3fa-4d10-bcc5-8f94699b5f33/resourceGroups/GitHub-Copilot-Challenges/providers/Microsoft.Resources/deployments/Microsoft.Template-20240508112905/operations/AC96CF2416D589B5",
+        "operationId": "AC96CF2416D589B5",
+        "properties": {
+            "provisioningOperation": "Create",
+            "provisioningState": "Succeeded",
+            "timestamp": "2024-05-08T15:29:28.2014841Z",
+            "duration": "PT19.3580783S",
+            "trackingId": "0a79d70f-88cc-4c58-8b16-5c6fb93ac97f",
+            "statusCode": "OK",
+            "targetResource": {
+                "id": "/subscriptions/3bb408ba-f3fa-4d10-bcc5-8f94699b5f33/resourceGroups/GitHub-Copilot-Challenges/providers/Microsoft.Cdn/profiles/cdn-u7jv3c2m63zee",
+                "resourceType": "Microsoft.Cdn/profiles",
+                "resourceName": "cdn-u7jv3c2m63zee"
+            }
+        }
+    },
+    {
+        "id": "/subscriptions/3bb408ba-f3fa-4d10-bcc5-8f94699b5f33/resourceGroups/GitHub-Copilot-Challenges/providers/Microsoft.Resources/deployments/Microsoft.Template-20240508112905/operations/08584864247377676448",
+        "operationId": "08584864247377676448",
+        "properties": {
+            "provisioningOperation": "EvaluateDeploymentOutput",
+            "provisioningState": "Succeeded",
+            "timestamp": "2024-05-08T15:30:11.2103504Z",
+            "duration": "PT30.2430609S",
+            "trackingId": "af311a83-07da-44a7-b9b4-716e076cdfeb",
+            "statusCode": "OK"
+        }
+    }
+]
